@@ -1,0 +1,6 @@
+framework module Pods_91MeetingMate {
+  umbrella header "Pods-91MeetingMate-umbrella.h"
+
+  export *
+  module * { export * }
+}

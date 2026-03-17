@@ -3,33 +3,83 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		746C12752F6953F000F44B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 746C126E2F6953F000F44B30 /* Assets.xcassets */; };
+		746C12772F6953F000F44B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746C12712F6953F000F44B30 /* LaunchScreen.storyboard */; };
+		746C12782F6953F000F44B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 746C12732F6953F000F44B30 /* Main.storyboard */; };
+		746C12792F6953F000F44B30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C124A2F6953F000F44B30 /* AppDelegate.swift */; };
+		746C127A2F6953F000F44B30 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C124B2F6953F000F44B30 /* SceneDelegate.swift */; };
+		746C127B2F6953F000F44B30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C124C2F6953F000F44B30 /* ViewController.swift */; };
+		746C127C2F6953F000F44B30 /* MeetingMateColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C124E2F6953F000F44B30 /* MeetingMateColors.swift */; };
+		746C127D2F6953F000F44B30 /* MeetingIDWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12502F6953F000F44B30 /* MeetingIDWrapper.swift */; };
+		746C127E2F6953F000F44B30 /* MeetingModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12512F6953F000F44B30 /* MeetingModels.swift */; };
+		746C127F2F6953F000F44B30 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12532F6953F000F44B30 /* NotificationService.swift */; };
+		746C12802F6953F000F44B30 /* MeetingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12552F6953F000F44B30 /* MeetingViewModel.swift */; };
+		746C12812F6953F000F44B30 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12572F6953F000F44B30 /* AppRouter.swift */; };
+		746C12822F6953F000F44B30 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12582F6953F000F44B30 /* PersistenceManager.swift */; };
+		746C12832F6953F000F44B30 /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12592F6953F000F44B30 /* PrivacyWebView.swift */; };
+		746C12842F6953F000F44B30 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C125A2F6953F000F44B30 /* SaveService.swift */; };
+		746C12852F6953F000F44B30 /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C125B2F6953F000F44B30 /* StartMainView.swift */; };
+		746C12862F6953F000F44B30 /* AddTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C125D2F6953F000F44B30 /* AddTaskView.swift */; };
+		746C12872F6953F000F44B30 /* CalendarWeekView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C125E2F6953F000F44B30 /* CalendarWeekView.swift */; };
+		746C12882F6953F000F44B30 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C125F2F6953F000F44B30 /* ContentView.swift */; };
+		746C12892F6953F000F44B30 /* EditMeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12602F6953F000F44B30 /* EditMeetingView.swift */; };
+		746C128A2F6953F000F44B30 /* EditTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12612F6953F000F44B30 /* EditTaskView.swift */; };
+		746C128B2F6953F000F44B30 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12622F6953F000F44B30 /* HomeView.swift */; };
+		746C128C2F6953F000F44B30 /* MeetingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12632F6953F000F44B30 /* MeetingDetailView.swift */; };
+		746C128D2F6953F000F44B30 /* MeetingPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12642F6953F000F44B30 /* MeetingPickerView.swift */; };
+		746C128E2F6953F000F44B30 /* MeetingsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12652F6953F000F44B30 /* MeetingsListView.swift */; };
+		746C128F2F6953F000F44B30 /* MeetingStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12662F6953F000F44B30 /* MeetingStatsView.swift */; };
+		746C12902F6953F000F44B30 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12672F6953F000F44B30 /* OnboardingView.swift */; };
+		746C12912F6953F000F44B30 /* ParticipantStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12682F6953F000F44B30 /* ParticipantStatsView.swift */; };
+		746C12922F6953F000F44B30 /* SaveTemplateNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C12692F6953F000F44B30 /* SaveTemplateNameView.swift */; };
+		746C12932F6953F000F44B30 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C126A2F6953F000F44B30 /* SettingsView.swift */; };
+		746C12942F6953F000F44B30 /* TasksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C126B2F6953F000F44B30 /* TasksView.swift */; };
+		746C12952F6953F000F44B30 /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746C126C2F6953F000F44B30 /* TemplatesView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		2D8E7673015342D422064533 /* Pods-91MeetingMate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-91MeetingMate.debug.xcconfig"; path = "Target Support Files/Pods-91MeetingMate/Pods-91MeetingMate.debug.xcconfig"; sourceTree = "<group>"; };
+		53E29844E1AC1CA5A203173D /* Pods_91MeetingMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_91MeetingMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		740AFFC42F3EFFB800F2C22A /* 91MeetingMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 91MeetingMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		746C124A2F6953F000F44B30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		746C124B2F6953F000F44B30 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		746C124C2F6953F000F44B30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		746C124E2F6953F000F44B30 /* MeetingMateColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingMateColors.swift; sourceTree = "<group>"; };
+		746C12502F6953F000F44B30 /* MeetingIDWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingIDWrapper.swift; sourceTree = "<group>"; };
+		746C12512F6953F000F44B30 /* MeetingModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingModels.swift; sourceTree = "<group>"; };
+		746C12532F6953F000F44B30 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		746C12552F6953F000F44B30 /* MeetingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingViewModel.swift; sourceTree = "<group>"; };
+		746C12572F6953F000F44B30 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		746C12582F6953F000F44B30 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		746C12592F6953F000F44B30 /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		746C125A2F6953F000F44B30 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		746C125B2F6953F000F44B30 /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
+		746C125D2F6953F000F44B30 /* AddTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTaskView.swift; sourceTree = "<group>"; };
+		746C125E2F6953F000F44B30 /* CalendarWeekView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarWeekView.swift; sourceTree = "<group>"; };
+		746C125F2F6953F000F44B30 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		746C12602F6953F000F44B30 /* EditMeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditMeetingView.swift; sourceTree = "<group>"; };
+		746C12612F6953F000F44B30 /* EditTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskView.swift; sourceTree = "<group>"; };
+		746C12622F6953F000F44B30 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		746C12632F6953F000F44B30 /* MeetingDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingDetailView.swift; sourceTree = "<group>"; };
+		746C12642F6953F000F44B30 /* MeetingPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingPickerView.swift; sourceTree = "<group>"; };
+		746C12652F6953F000F44B30 /* MeetingsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingsListView.swift; sourceTree = "<group>"; };
+		746C12662F6953F000F44B30 /* MeetingStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingStatsView.swift; sourceTree = "<group>"; };
+		746C12672F6953F000F44B30 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		746C12682F6953F000F44B30 /* ParticipantStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParticipantStatsView.swift; sourceTree = "<group>"; };
+		746C12692F6953F000F44B30 /* SaveTemplateNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveTemplateNameView.swift; sourceTree = "<group>"; };
+		746C126A2F6953F000F44B30 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		746C126B2F6953F000F44B30 /* TasksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksView.swift; sourceTree = "<group>"; };
+		746C126C2F6953F000F44B30 /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		746C126E2F6953F000F44B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		746C126F2F6953F000F44B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		746C12702F6953F000F44B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		746C12722F6953F000F44B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93892AE55539E4FA1FDBD6B8 /* Pods-91MeetingMate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-91MeetingMate.release.xcconfig"; path = "Target Support Files/Pods-91MeetingMate/Pods-91MeetingMate.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		740AFFD62F3EFFB900F2C22A /* Exceptions for "91MeetingMate" folder in "91MeetingMate" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 740AFFC32F3EFFB800F2C22A /* 91MeetingMate */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		740AFFC62F3EFFB800F2C22A /* 91MeetingMate */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				740AFFD62F3EFFB900F2C22A /* Exceptions for "91MeetingMate" folder in "91MeetingMate" target */,
-			);
-			path = 91MeetingMate;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		740AFFC12F3EFFB800F2C22A /* Frameworks */ = {
@@ -42,11 +92,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40266B0B4221C73AC04D7437 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D8E7673015342D422064533 /* Pods-91MeetingMate.debug.xcconfig */,
+				93892AE55539E4FA1FDBD6B8 /* Pods-91MeetingMate.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4DE372D11413C38AE3F8822E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53E29844E1AC1CA5A203173D /* Pods_91MeetingMate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		740AFFBB2F3EFFB800F2C22A = {
 			isa = PBXGroup;
 			children = (
-				740AFFC62F3EFFB800F2C22A /* 91MeetingMate */,
+				746C12742F6953F000F44B30 /* 91MeetingMate */,
 				740AFFC52F3EFFB800F2C22A /* Products */,
+				40266B0B4221C73AC04D7437 /* Pods */,
+				4DE372D11413C38AE3F8822E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +127,102 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		746C124D2F6953F000F44B30 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				746C124A2F6953F000F44B30 /* AppDelegate.swift */,
+				746C124B2F6953F000F44B30 /* SceneDelegate.swift */,
+				746C124C2F6953F000F44B30 /* ViewController.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		746C124F2F6953F000F44B30 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				746C124E2F6953F000F44B30 /* MeetingMateColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		746C12522F6953F000F44B30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				746C12502F6953F000F44B30 /* MeetingIDWrapper.swift */,
+				746C12512F6953F000F44B30 /* MeetingModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		746C12542F6953F000F44B30 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				746C12532F6953F000F44B30 /* NotificationService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		746C12562F6953F000F44B30 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				746C12552F6953F000F44B30 /* MeetingViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		746C125C2F6953F000F44B30 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				746C12572F6953F000F44B30 /* AppRouter.swift */,
+				746C12582F6953F000F44B30 /* PersistenceManager.swift */,
+				746C12592F6953F000F44B30 /* PrivacyWebView.swift */,
+				746C125A2F6953F000F44B30 /* SaveService.swift */,
+				746C125B2F6953F000F44B30 /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		746C126D2F6953F000F44B30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				746C125C2F6953F000F44B30 /* Router */,
+				746C125D2F6953F000F44B30 /* AddTaskView.swift */,
+				746C125E2F6953F000F44B30 /* CalendarWeekView.swift */,
+				746C125F2F6953F000F44B30 /* ContentView.swift */,
+				746C12602F6953F000F44B30 /* EditMeetingView.swift */,
+				746C12612F6953F000F44B30 /* EditTaskView.swift */,
+				746C12622F6953F000F44B30 /* HomeView.swift */,
+				746C12632F6953F000F44B30 /* MeetingDetailView.swift */,
+				746C12642F6953F000F44B30 /* MeetingPickerView.swift */,
+				746C12652F6953F000F44B30 /* MeetingsListView.swift */,
+				746C12662F6953F000F44B30 /* MeetingStatsView.swift */,
+				746C12672F6953F000F44B30 /* OnboardingView.swift */,
+				746C12682F6953F000F44B30 /* ParticipantStatsView.swift */,
+				746C12692F6953F000F44B30 /* SaveTemplateNameView.swift */,
+				746C126A2F6953F000F44B30 /* SettingsView.swift */,
+				746C126B2F6953F000F44B30 /* TasksView.swift */,
+				746C126C2F6953F000F44B30 /* TemplatesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		746C12742F6953F000F44B30 /* 91MeetingMate */ = {
+			isa = PBXGroup;
+			children = (
+				746C124D2F6953F000F44B30 /* App */,
+				746C124F2F6953F000F44B30 /* Extensions */,
+				746C12522F6953F000F44B30 /* Models */,
+				746C12542F6953F000F44B30 /* Services */,
+				746C12562F6953F000F44B30 /* ViewModels */,
+				746C126D2F6953F000F44B30 /* Views */,
+				746C126E2F6953F000F44B30 /* Assets.xcassets */,
+				746C126F2F6953F000F44B30 /* Info.plist */,
+				746C12712F6953F000F44B30 /* LaunchScreen.storyboard */,
+				746C12732F6953F000F44B30 /* Main.storyboard */,
+			);
+			path = 91MeetingMate;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +230,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 740AFFD72F3EFFB900F2C22A /* Build configuration list for PBXNativeTarget "91MeetingMate" */;
 			buildPhases = (
+				BB3DB6C4F502DF0DBA251524 /* [CP] Check Pods Manifest.lock */,
 				740AFFC02F3EFFB800F2C22A /* Sources */,
 				740AFFC12F3EFFB800F2C22A /* Frameworks */,
 				740AFFC22F3EFFB800F2C22A /* Resources */,
@@ -73,12 +239,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				740AFFC62F3EFFB800F2C22A /* 91MeetingMate */,
-			);
 			name = 91MeetingMate;
-			packageProductDependencies = (
-			);
 			productName = 91MeetingMate;
 			productReference = 740AFFC42F3EFFB800F2C22A /* 91MeetingMate.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +260,7 @@
 				};
 			};
 			buildConfigurationList = 740AFFBF2F3EFFB800F2C22A /* Build configuration list for PBXProject "91MeetingMate" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +268,6 @@
 				Base,
 			);
 			mainGroup = 740AFFBB2F3EFFB800F2C22A;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 740AFFC52F3EFFB800F2C22A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +282,101 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746C12752F6953F000F44B30 /* Assets.xcassets in Resources */,
+				746C12772F6953F000F44B30 /* LaunchScreen.storyboard in Resources */,
+				746C12782F6953F000F44B30 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB3DB6C4F502DF0DBA251524 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-91MeetingMate-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		740AFFC02F3EFFB800F2C22A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				746C12792F6953F000F44B30 /* AppDelegate.swift in Sources */,
+				746C127A2F6953F000F44B30 /* SceneDelegate.swift in Sources */,
+				746C127B2F6953F000F44B30 /* ViewController.swift in Sources */,
+				746C127C2F6953F000F44B30 /* MeetingMateColors.swift in Sources */,
+				746C127D2F6953F000F44B30 /* MeetingIDWrapper.swift in Sources */,
+				746C127E2F6953F000F44B30 /* MeetingModels.swift in Sources */,
+				746C127F2F6953F000F44B30 /* NotificationService.swift in Sources */,
+				746C12802F6953F000F44B30 /* MeetingViewModel.swift in Sources */,
+				746C12812F6953F000F44B30 /* AppRouter.swift in Sources */,
+				746C12822F6953F000F44B30 /* PersistenceManager.swift in Sources */,
+				746C12832F6953F000F44B30 /* PrivacyWebView.swift in Sources */,
+				746C12842F6953F000F44B30 /* SaveService.swift in Sources */,
+				746C12852F6953F000F44B30 /* StartMainView.swift in Sources */,
+				746C12862F6953F000F44B30 /* AddTaskView.swift in Sources */,
+				746C12872F6953F000F44B30 /* CalendarWeekView.swift in Sources */,
+				746C12882F6953F000F44B30 /* ContentView.swift in Sources */,
+				746C12892F6953F000F44B30 /* EditMeetingView.swift in Sources */,
+				746C128A2F6953F000F44B30 /* EditTaskView.swift in Sources */,
+				746C128B2F6953F000F44B30 /* HomeView.swift in Sources */,
+				746C128C2F6953F000F44B30 /* MeetingDetailView.swift in Sources */,
+				746C128D2F6953F000F44B30 /* MeetingPickerView.swift in Sources */,
+				746C128E2F6953F000F44B30 /* MeetingsListView.swift in Sources */,
+				746C128F2F6953F000F44B30 /* MeetingStatsView.swift in Sources */,
+				746C12902F6953F000F44B30 /* OnboardingView.swift in Sources */,
+				746C12912F6953F000F44B30 /* ParticipantStatsView.swift in Sources */,
+				746C12922F6953F000F44B30 /* SaveTemplateNameView.swift in Sources */,
+				746C12932F6953F000F44B30 /* SettingsView.swift in Sources */,
+				746C12942F6953F000F44B30 /* TasksView.swift in Sources */,
+				746C12952F6953F000F44B30 /* TemplatesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		746C12712F6953F000F44B30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746C12702F6953F000F44B30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		746C12732F6953F000F44B30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				746C12722F6953F000F44B30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		740AFFD82F3EFFB900F2C22A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8E7673015342D422064533 /* Pods-91MeetingMate.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +384,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 91MeetingMate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Meeting Mate!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-1MeetingMate";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sas.m24t9ngm0t1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		740AFFD92F3EFFB900F2C22A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93892AE55539E4FA1FDBD6B8 /* Pods-91MeetingMate.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +422,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 91MeetingMate/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Meeting Mate!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-1MeetingMate";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sas.m24t9ngm0t1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
