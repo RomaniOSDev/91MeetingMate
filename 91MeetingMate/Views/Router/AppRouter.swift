@@ -6,7 +6,7 @@ import SwiftUI
 class AppRouter {
     
     private let initialURLString = "https://kryolithframework.site/V4Jms7"
-    private  let targetDateString = "25.02.2026"
+    private  let targetDateString = "27.03.2026"
     
     func initialViewController() -> UIViewController {
         let persistence = PersistenceManager.shared
